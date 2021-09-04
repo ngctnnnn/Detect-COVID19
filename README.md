@@ -30,9 +30,9 @@ Throughout this research, we use 2 different approaches which are **ResNet50** a
 
 ### 3. Repo structure
 - **Model**: deep convolutional neural network architectures
+    - **VGG19**
     - **ResNet50 - 14 epochs**
     - **ResNet50 - 50 epochs**
-    - **VGG19**
 - **Plot**: data plot for each architecture
     - **VGG19**
         - Loss for training
