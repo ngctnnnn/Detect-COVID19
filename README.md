@@ -8,9 +8,10 @@ In this paper, we propose a rapidly testing method which has a high productivity
 ### Contents
 1. [Introduction](#1-introduction)
 2. [Prerequisites ](#2-prerequisites)
-3. [Install](#3-install)
-4. [Results](#4-results) 
-5. [References](#5-references)
+3. [Repo structure](#3-repo-structure)
+4. [Install](#4-install)
+6. [Results](#5-results) 
+6. [References](#6-references)
 ### 1. Introduction
 #### Dataset's description
 In this research, we use COVIDx dataset - which is a widely used dataset in recent research about COVID-19 nowadays.   
@@ -26,14 +27,23 @@ Throughout this research, we use 2 different approaches which are **ResNet50** a
 - Sklear >= 0.24.2
 - NumPy >= 1.13.3
 - Tensorflow >= 2.6
-### 3. Install 
+
+### 3. Repo structure
+- Dataset: data used in this repo
+- Model: deep convolutional neural network architectures
+    - ResNet50 - 14 epochs
+    - ResNet50 - 50 epochs
+    - VGG19
+
+
+### 4. Install 
 ```bash
 conda create -n covid-detect python==3.8 -y
 conda activate covid-detect 
 pip3 install -r requirements.txt
 jupyter notebook
 ```
-### 4. Results
+### 5. Results
 #### Comparison between precision and number of parameters among models
 | Architecture | Number of parameters (M) | Accuracy | Resolution |
 |:---:|:---:|:--:|:--:|
