@@ -1,6 +1,6 @@
 <div align="center">
 	
-# Detecting COVID-19 with Pneumonia    
+# A Deep Learning Approach to detect COVID-19  
 </div>
 
 In this paper, we propose a rapidly testing method which has a high productivity in a short time. In details, we will apply deep learning neural networks, e.g. ResNet50 and VGG19 to solve this problem. After that, we will proceed analysing pros and cons  of  those  models  for  a  thorough  vision  about  applying  artificial  intelligence  in  COVID-19  rapid  testing.
@@ -65,7 +65,7 @@ jupyter notebook
 | ResNet50 (14 epochs) |  56\% | 74\% | 97\% |
 | ResNet50 (50 epochs) | 73\% | 71\% | 96\% |
 
-## References 
+### 6. References 
 - [1] Cleverley, J.; Piper, J.; Jones, M.M. The role of chest radiography in confirming covid-19 pneumonia. BMJ 2020, 370. 
 - [2] Wang, L., Lin, Z.Q. & Wong, A. COVID-Net: a tailored deep convolutional neural network design for detection of COVID-19 cases from chest X-ray images. Sci Rep 10, 19549 (2020). https://doi.org/10.1038/s41598-020-76550-z
 - [3] Cohen, J. P., Morrison, P., & Dao, L. COVID-19 image data collection. arXiv:2003.11597(2020)
