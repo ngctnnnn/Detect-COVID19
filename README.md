@@ -61,21 +61,21 @@ jupyter notebook
 ```
 ### 5. Results
 #### Results on VGG19
-| | Precision | Recall | F1-score | Support |
+| Disease | Precision | Recall | F1-score | Support |
 |:--:|:--:|:--:|:--:|:--:|
 | COVID-19 | 0.99 | 0.82 | 0.90 | 274  |
 | Non-respiratory disease | 0.7 | 0.96 | 0.81 | 100 |
 | Pneumonia | 0.8 | 0.86 | 0.83 | 105 |
 
 #### Results on ResNet50 (14 epochs)
-| | Precision | Recall | F1-score | Support |
+| Disease | Precision | Recall | F1-score | Support |
 |:--:|:--:|:--:|:--:|:--:|
 | COVID-19 | 0.97 | 0.67 | 0.79 | 274 |
 | Non-respiratory disease | 0.56 | 0.96 | 0.71 | 100 |
 | Pneumonia | 0.74 | 0.85 | 0.79 | 105 |
 
 #### Results on ResNet50 (50 epochs)
-| | Precision | Recall | F1-score | Support |
+| Disease | Precision | Recall | F1-score | Support |
 |:--:|:--:|:--:|:--:|:--:|
 | COVID-19 |0.96 | 0.80 | 0.88 | 274 |
 | Non-respiratory disease | 0.73 | 0.86 | 0.79 | 100|
