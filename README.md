@@ -1,6 +1,6 @@
 <div align="center">
 	
-# A Deep Learning Approach to detect COVID-19  
+# A Deep Learning approach to detect COVID-19  
 </div>
 
 In this paper, we propose a rapidly testing method which has a high productivity in a short time. In details, we will apply deep learning neural networks, e.g. ResNet50 and VGG19 to solve this problem. After that, we will proceed analysing pros and cons  of  those  models  for  a  thorough  vision  about  applying  artificial  intelligence  in  COVID-19  rapid  testing.
