@@ -9,7 +9,7 @@ In this paper, we propose a rapidly testing method which has a high productivity
 1. [Introduction](#1-introduction)
 2. [Prerequisites ](#2-prerequisites)
 3. [Repo structure](#3-repo-structure)
-4. [Install](#4-install)
+4. [Install and set up environment](#4-install)
 6. [Results](#5-results) 
 6. [References](#6-references)
 ### 1. Introduction
@@ -52,7 +52,8 @@ Throughout this research, we use 2 different approaches which are **ResNet50** a
     - **Accuracy on validation set**
 - **Report**: detailed report for this research
 - **Demo.ipynb**: Demo to prototyping on jupyter notebook
-### 4. Install 
+
+### 4. Install and set up environment
 ```bash
 conda create -n covid-detect python==3.8 -y
 conda activate covid-detect 
