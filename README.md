@@ -14,7 +14,7 @@ In this paper, we propose a rapidly testing method which has a high productivity
 6. [References](#6-references)
 ### 1. Introduction
 #### Dataset's description
-In this research, we use COVIDx dataset - which is a widely used dataset in recent research about COVID-19 nowadays.   
+In this research, we use COVIDx dataset [2] - which is a widely used dataset in recent research about COVID-19 nowadays.   
 COVIDx Datset is a dataset synthesized from many a different source, which are in details: Cohen et al. [3], Chung [4], Chung [5], Radiological Society of North America [5],and Radiological Society of North America [6]. Additionally, this dataset also provides an image extension transfer tool: from `.mri` into `.jpg`. And the author moreover provide a code to support data pre-processing and getting rid of unnecessary part for synthesized data.
 #### Method
 We proposed using *diagnostic imaging*, which is an approach using Chest X-ray (CXR) image. This is due to its lower cost and faster testing time in comparison with RT PCR or CT Image.
@@ -24,17 +24,33 @@ Throughout this research, we use 2 different approaches which are **ResNet50** a
 
 ### 2. Prerequisites 
 - Python >=  3.6
-- Sklear >= 0.24.2
+- Sklearn >= 0.24.2
 - NumPy >= 1.13.3
 - Tensorflow >= 2.6
 
 ### 3. Repo structure
-- Dataset: data used in this repo
-- Model: deep convolutional neural network architectures
-    - ResNet50 - 14 epochs
-    - ResNet50 - 50 epochs
-    - VGG19
-
+- **Dataset**: data used in this repo
+- **Model**: deep convolutional neural network architectures
+    - **ResNet50 - 14 epochs**
+    - **ResNet50 - 50 epochs**
+    - **VGG19**
+- **Plot**: data plot for each architecture
+    - **VGG19**
+        - Loss for training
+        - Model accuracy
+        - Confusion matrix
+    - **ResNet50 (14 epochs)**
+        - Loss for training
+        - Model accuracy
+        - Confusion matrix
+    - **ResNet50 (50 epochs)**
+        - Loss for training
+        - Model accuracy
+        - Confusion matrix
+    - **Accuracy on training set**
+    - **Accuracy on validation set**
+    - **Loss for training set**
+    - **Accuracy on validation set**
 
 ### 4. Install 
 ```bash
