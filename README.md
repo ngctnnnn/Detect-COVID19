@@ -9,7 +9,7 @@ In this paper, we propose a rapidly testing method which has a high productivity
 1. [Introduction](#1-introduction)
 2. [Prerequisites ](#2-prerequisites)
 3. [Repo structure](#3-repo-structure)
-4. [Install and set up environment](#4-install)
+4. [Install and set up environment](#4-install-and-set-up-environment)
 6. [Results](#5-results) 
 6. [References](#6-references)
 ### 1. Introduction
@@ -61,46 +61,64 @@ jupyter notebook
 ```
 ### 5. Results
 #### Results on VGG19
+<div align="center">
+	
 | Disease | Precision | Recall | F1-score | Support |
 |:--:|:--:|:--:|:--:|:--:|
 | COVID-19 | 0.99 | 0.82 | 0.90 | 274  |
 | Non-respiratory disease | 0.7 | 0.96 | 0.81 | 100 |
 | Pneumonia | 0.8 | 0.86 | 0.83 | 105 |
-
+</div>
+	
 #### Results on ResNet50 (14 epochs)
+<div align="center">
+	
 | Disease | Precision | Recall | F1-score | Support |
 |:--:|:--:|:--:|:--:|:--:|
 | COVID-19 | 0.97 | 0.67 | 0.79 | 274 |
 | Non-respiratory disease | 0.56 | 0.96 | 0.71 | 100 |
 | Pneumonia | 0.74 | 0.85 | 0.79 | 105 |
-
+</div>
+	
 #### Results on ResNet50 (50 epochs)
+<div align="center">
+	
 | Disease | Precision | Recall | F1-score | Support |
 |:--:|:--:|:--:|:--:|:--:|
 | COVID-19 |0.96 | 0.80 | 0.88 | 274 |
 | Non-respiratory disease | 0.73 | 0.86 | 0.79 | 100|
 | Pneumonia | 0.71 | 0.90 | 0.79 | 105 |
-
-#### Comparison between precision and number of parameters among models
-| Architecture | Number of parameters (M) | Accuracy | Resolution |
-|:---:|:---:|:--:|:--:|
-| VGG19 | 29.76 trainable + 20.25 non-trainable | 86% | 480 x 480 |
-| ResNet50 (14 epochs) | 25.93 trainable + 23.77 non-trainable | 77% |224 x 224 |
-| ResNet50 (50 epochs) | 25.93 trainable + 23.77 non-trainable | 84% | 224 x 224 |
-
+</div>
+	
 #### Comparison among models based on sensitivity
+<div align="center">
+	
 | Architecture | Non-respiratory disease | Pneumonia | COVID-19 |
 |:---:|:---:|:--:|:--:|
 | VGG19 | 96\% | 86\% | 82\% |
 | ResNet50 (14 epochs) |  96\% | 85\% | 67\% |
 | ResNet50 (50 epochs) | 86\% | 90\% | 80\% |
-
+</div>
+	
 #### Comparison among models based on PPV
+<div align="center">
+	
 | Architecture | Non-respiratory disease | Pneumonia | COVID-19 |
 |:---:|:---:|:--:|:--:|
 | VGG19 |70\% | 80\%| 99\% |
 | ResNet50 (14 epochs) |  56\% | 74\% | 97\% |
 | ResNet50 (50 epochs) | 73\% | 71\% | 96\% |
+</div>
+
+#### Comparison between precision and number of parameters among models
+<div align="center">
+	
+| Architecture | Number of parameters (M) | Accuracy | Resolution |
+|:---:|:---:|:--:|:--:|
+| VGG19 | 29.76 trainable + 20.25 non-trainable | 86% | 480 x 480 |
+| ResNet50 (14 epochs) | 25.93 trainable + 23.77 non-trainable | 77% |224 x 224 |
+| ResNet50 (50 epochs) | 25.93 trainable + 23.77 non-trainable | 84% | 224 x 224 |
+</div>
 
 ### 6. References 
 - [1] Cleverley, J.; Piper, J.; Jones, M.M. The role of chest radiography in confirming covid-19 pneumonia. BMJ 2020, 370. 
