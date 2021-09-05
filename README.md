@@ -50,6 +50,9 @@ Throughout this research, we use 2 different approaches which are **ResNet50** a
     - **Loss for training set**
     - **Accuracy on validation set**
 - **Report**: detailed report for this research
+    - **src**: LaTeX source for report
+    - **Detect COVID-19 with Pneumonia via DCNNs.pdf**: publication's name
+    - **Presentation.pptx**: presentation file
 - **Demo.ipynb**: Demo to prototyping on jupyter notebook
 
 ### 4. Install and set up environment
