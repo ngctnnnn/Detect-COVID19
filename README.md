@@ -5,6 +5,17 @@
 
 In this paper, we propose a rapidly testing method which has a high productivity in a short time. In details, we will apply deep learning neural networks, e.g. ResNet50 and VGG19 to solve this problem. After that, we will proceed analysing pros and cons  of  those  models  for  a  thorough  vision  about  applying  artificial  intelligence  in  COVID-19  rapid  testing.
 
+```bibtex
+@article{detect-covid19-dl,
+    title={Detecting COVID-19 and Pneumonia with Chest X-Ray images using Deep Convolutional Neural Networks},
+    author={Vo, An and Pham, Tan Ngoc},
+    journal={Introduction to Computer Vision},
+    month={June},
+    year={2021},
+    url={https://github.com/DTA-UIT/Detect-COVID19}
+}
+```
+
 ### Contents
 1. [Introduction](#1-introduction)
 2. [Prerequisites ](#2-prerequisites)
@@ -133,3 +144,5 @@ jupyter notebook
 - [7] Radiological Society of North America. RSNA pneumonia detection challenge. https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/data (2019).
 - [8] Krizhevsky, A., Sutskever, I. & Hinton, G. E. (2012). ImageNet Classification with Deep Convolutional Neural Networks. In F. Pereira, C. J. C. Burges, L. Bottou & K. Q. Weinberger (ed.), Advances in Neural Information Processing Systems 25 (pp. 1097--1105) . Curran Associates, Inc. . 
 - [9] K. Simonyan et al., Very deep convolutional networks for large-scale image recognition, 2015.
+
+
